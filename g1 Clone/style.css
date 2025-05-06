@@ -1,0 +1,147 @@
+/* Formatações Gerais */
+
+body {
+	background: #f9f9f9;
+}
+
+/* Formatações navbar */
+
+.bg-custom {
+	background: #c4170c;
+}
+
+.navbar-brand {
+	cursor: pointer;
+}
+
+.custom-input {
+	width: 140px;
+	height: 33px;
+	background: #a7140a;
+	border: none;
+	color: #fff;
+}
+
+.custom-input::placeholder {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* Formatações Cards iniciais */
+
+.card {
+	margin-top: 60px;
+	overflow: hidden;
+	border-radius: 15px;
+	padding: 12px;
+}
+
+.linkCardDestaque1 {
+	color: red;
+	text-decoration: none;
+}
+
+.linkCardDestaque1:hover {
+	text-decoration: none;
+	color: #a7140a;
+}
+
+.linkUl {
+	color: red;
+	text-decoration: none;
+}
+
+.linkUl:hover {
+	text-decoration: none;
+	color: #a7140a;
+}
+
+.card-body {
+	/*border: 1px solid red;*/
+	padding: 45px;
+}
+
+.card-body h5 {
+	margin-bottom: 25px;
+}
+
+.linkCardDestaque2 {
+	color: #000;
+
+}
+
+.cardLateral1 {
+	padding: 25px;
+	color: #fff;
+}
+
+.card-com-imagem1 {
+	background: url(./imagens/noticia1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 200px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.cardLateral2 {
+	padding: 25px;
+	color: #fff;
+}
+
+.card-com-imagem2 {
+	background: url(./imagens/noticia2.jpeg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 200px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+/* Formatação noticias */
+
+.formatacaoNoticiasImg {
+	display: inline-flex;
+	margin-top: 60px;
+}
+
+.formatacaoNoticiasText {
+	display: inline-flex;
+	margin-top: 75px;
+	text-decoration: none;
+	color: red;
+}
+
+.formatacaoNoticiasText:hover {
+	text-decoration: none;
+	color: #a7140a;
+}
+
+.btn-custom {
+	background: #c4170c;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 90px;
+	padding: 12px;
+	border-radius: 12px;
+}
+
+.btn-custom:hover {
+	color: #fff;
+	background: #990000;
+}
+
+/* Rodapé */
+
+.rodape {
+	padding-top: 5px;
+}
+
+.mt-footer {
+	margin-top: 30px;
+}
